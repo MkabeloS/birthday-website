@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title> Happy Birthday, Baby!</title>
+
+  <link rel="stylesheet" href="styles.css"/>
+
+</head>
+
+<body>
+  <header class="hero">
+    <h1>Happy Blessed Birthday, Baby! 🎉</h1>
+    <p>Here's a little sumthin' sumthin' I made just for you 💙</p>
+  </header>
+   <section class="gallery">
+    <h2>📸 A Gallery of Your Favourite photo's</h2>
+    <p> I would've added our photo's together if there were any :(</p>
+    <div class="photos">
+      <img src="images/photo1.jpg" alt="Your first favourite photo, hayi">
+      <img src="images/photo2.jpg" alt="Your nude">
+      <img src="images/photo3.jpg" alt="An attempt at a selfie once more">
+      
+    </div>
+  </section>
+
+  <section class="love-list">
+    <h2>💘 10 Things I Love About You</h2>
+    <ul id="loveList">
+      <li onclick="reveal(this)">Your smile</li>
+      <li onclick="reveal(this)">Your sense of humour — it matches mine</li>
+      <li onclick="reveal(this)">You make me laugh — even when I don’t want to</li>
+      <li onclick="reveal(this)">You’re smart & driven</li>
+      <li onclick="reveal(this)">Your hugs — warm and safe</li>
+      <li onclick="reveal(this)">You love cheese as much as I do 🧀</li>
+      <li onclick="reveal(this)">You’re honest and upfront</li>
+      <li onclick="reveal(this)">You’re super competitive (even in games!)</li>
+      <li onclick="reveal(this)">You pretend not to like gossip and my singing bro... 😂</li>
+      <li onclick="reveal(this)">You’re the real GOAT 🐐</li>
+    </ul>
+  </section>
+
+  <section class="story">
+    <h2>💫 How We Met</h2>
+    <p>We met in January this year (you claim not to remember, lol). I helped you with quotes and all your questions. It was on your second visit—with your cousin—that I noticed you might be into me.</p>
+    <p>You called once telling me you were going to buy me (which you never gave 😅 and ngiyayi funa). The fourth time, you brought McDonald's and asked for my number... to which I didn’t give (lol).</p>
+    <p>When you came to collect your lenses, you caught me off guard, and I finally gave in. From there, it just clicked. You were impulsive and sweet. I enjoyed my first sleepover and the second(loved it the most, hehe), and you were respectful from the start.</p>
+    <p>Now, even with the distance between us right now, I know we're growing into something real. I feel a little lucky to have you 💙</p>
+  </section>
+
+  <section class="letter">
+    <h2>💌 A Love Letter</h2>
+    <div class="card">
+      <p>Dear Baby,</p>
+      <p>Happy Birthday, one of my favorite humans on this planet. You bring laughter, joy, and just the right amount of chaos to my life(yhiii) — and I love every second of it.</p>
+      <p>Thank you for being kind, goofy, respectful, and real. Here’s to more late-night chats, cuddles, and McDonald's dates. I see something special in you — and in us.</p>
+      <p>With love, always,<br><strong>Your Baby Girl 💙</strong></p>
+    </div>
+  </section>
+
+  <section class="gift">
+    <h2>🎁 Your Gift</h2>
+    <div class="card">
+      <p>This birthday pass entitles you to (For now okay yoh):</p>
+      <h3>🎬 One Movie Night of Your Choice</h3>
+      <p>(Snacks included. No judgment — even if it’s Fast & Furious 29.)</p>
+    </div>
+  </section>
+
+  <section class="quotes">
+    <h2>🤭 Things You Always Say</h2>
+    <ul>
+      <li>"I don’t have time for gossip." / "This is all gossip!"</li>
+      <li>"You’re telling me stories, chief."</li>
+      <li>Your new favourites:</li>
+      <li>"Oesophagus"</li>
+      <li>"Why did you fart?"</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>Made with 💙 just for you</p>
+  </footer>
+  
+</body>
+</html>
