@@ -6,13 +6,7 @@ body {
   padding: 0;
   line-height: 1.6;
 }
-.photos img.photo {
-  width: 150px;       /* Adjust as needed */
-  height: 200px;
-  border-radius: 10px;
-  margin: 10px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
-}
+
 header.hero {
   background: #b3d1f7;
   padding: 50px 20px;
@@ -64,4 +58,5 @@ footer {
   margin: 10px;
   padding: 10px;
   border-left: 4px solid #6ca0dc;
+
 }
