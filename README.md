@@ -10,3 +10,6 @@ A birthday message
 A list of personal things I love about my partner
 A cute little love letter
 Memorable quotes and moments
+
+Page can be viewed on:
+https://mkabelos.github.io/birthday-website/
