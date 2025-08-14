@@ -1,35 +1,37 @@
 <!DOCTYPE html>
-<html>
-<head>
+  <html>
+  <head>
+  <title>Happy Birthday, Baby!</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
 
-  <title> Happy Birthday, Baby!</title>
+  </head>
 
- <link rel="stylesheet" type="text/css" href="style.css">
-
-</head>
-
-<body>
+  <body>
   <header class="hero">
     <h1>Happy Blessed Birthday, Baby! 🎉</h1>
     <p>Here's a little sumthin' sumthin' I made just for you 💙</p>
   </header>
 
-<section>
- <p> I am yet to modify this :( </p>
-</section>
+  <section class="gallery">
+    <h2>📸 A Gallery of Your Favourite photo's</h2>
+    <p>Of course these are private:)</p>
+ 
+  </section>
 
   <section class="love-list">
     <h2>💘 10 Things I Love About You</h2>
+    <!-- 💘 Toggle Button -->
+   <button onclick="toggleLoveList()">Love List 💘</button>
     <ul id="loveList">
-      <li>Your smile</li>
+      <li>Your smile</li> 
       <li>Your sense of humour — it matches mine</li>
       <li>You make me laugh — even when I don’t want to</li>
-      <li>You’re smart & driven</li>
+      <li>You’re smart & driven</li> 
       <li>Your hugs — warm and safe</li>
       <li>You love cheese as much as I do 🧀</li>
-      <li>You’re honest and upfront</li>
-      <li>You’re super competitive (even in games!)</li>
-      <li>You pretend not to like gossip and my singing bro... 😂</li>
+      <li>You’re honest and upfront</li> 
+      <li>You’re super competitive (even in games!)</li> 
+      <li>You pretend not to like gossip and my singing bro... 😂</li> 
       <li>You’re the real GOAT 🐐</li>
     </ul>
   </section>
@@ -37,23 +39,23 @@
   <section class="story">
     <h2>💫 How We Met</h2>
     <p>We met in January this year (you claim not to remember, lol). I helped you with quotes and all your questions. It was on your second visit—with your cousin—that I noticed you might be into me.</p>
-    <p>You called once telling me you were going to buy me a gift(which you never gave 😅 and ngiyayi funa). The fourth time, you brought McDonald's and asked for my number... to which I didn’t give (lol).</p>
-    <p>When you came to collect your lenses, you caught me off guard, and I finally gave in. From there, it just clicked. You were impulsive and sweet. I enjoyed my first sleepover and the second(loved it the most, hehe), and you were respectful from the start.</p>
+    <p>You called once telling me you were going to buy me a gift (which you never gave 😅 and ngiyayi funa). The fourth time, you brought McDonald's and asked for my number... to which I didn’t give (lol).</p>
+    <p>When you came to collect your lenses, you caught me off guard, and I finally gave in. From there, it just clicked. You were impulsive and sweet. I enjoyed my first sleepover and the second (loved it the most, hehe), and you were respectful from the start.</p>
     <p>Now, even with the distance between us right now, I have hope regarding us. I feel a little lucky to have you 💙</p>
   </section>
 
   <section class="letter">
-    <h2>💌 A Love Letter</h2>
+  <h2>💌 A Love Letter</h2>
     <div class="card">
       <p>Dear Baby,</p>
-      <p>Happy Birthday, one of my favorite humans on this planet. You bring laughter, joy, and just the right amount of chaos to my life(yhiii) — and I love every second of it.</p>
+      <p>Happy Birthday, one of my favorite humans on this planet. You bring laughter, joy, and just the right amount of chaos to my life (yhiii) — and I love every second of it.</p>
       <p>Thank you for being kind, goofy, respectful, and real. Here’s to more late-night chats, cuddles, and McDonald's dates ai kodwa we need gym nou wabona chief. I see something special in you — and in us.</p>
       <p>With love, always,<br><strong>Your Baby Girl 💙</strong></p>
     </div>
   </section>
 
   <section class="gift">
-    <h2>🎁 Your Gift</h2>
+  <h2>🎁 Your Gift</h2>
     <div class="card">
       <p>This birthday pass entitles you to (For now okay yoh):</p>
       <h3>🎬 One Movie Night of Your Choice</h3>
@@ -61,12 +63,12 @@
     </div>
   </section>
 
- <section class="quotes">
-    <h2>🤭 Things You Always Say</h2>
+  <section class="quotes">
+  <h2>🤭 Things You Always Say</h2>
     <ul>
       <li>"I don’t have time for gossip." / "This is all gossip!"</li>
       <li>"You’re telling me stories, chief."</li>
-      Your new favourites:
+      <p>Your new favourites:</p>
       <li>"Oesophagus" urgh</li>
       <li>"Why did you fart?"</li>
     </ul>
@@ -75,9 +77,20 @@
   <footer>
     <p>Made with 💙 just for you</p>
   </footer>
+
+  <!-- 🎉 JavaScript Section -->
+  <script>
   
+    // Toggle the love list
+    function toggleLoveList() {
+      const list = document.getElementById("loveList");
+      if (list.style.display === "none") {
+        list.style.display = "block";
+      } else {
+        list.style.display = "none";
+      }
+    }
+  </script>
+
 </body>
 </html>
-
-
-
